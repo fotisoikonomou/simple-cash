@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-   <meta http-equiv="Content-Type" content="text/html;
-    charset=UTF-8">
-    <meta charset="urf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="urf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
 <h1>ΜΗΧΑΝΗ ΑΝΑΛΗΨΗΣ ΧΡΗΜΑΤΩΝ</h1>
 <h2>ΒΑΛΕ ΤΗΝ ΚΑΡΤΑ ΚΑΙ ΜΕΤΑ</h2>
 <h3>ΒΑΛΕ ΤΟΝ ΚΩΔΙΚΟ ΣΟΥ</h3> <form action="posa.html"><input id="numb">
 <button type="button" onclick="myFunction()">Submit</button>
 <p id="message"></p></form>
-    <script>
-    	var user1code= 3344;
-    	var user2code =2211;
-    	var user3code = 3333;
+<script>
+var user1code= 3344;
+var user2code =2211;
+var user3code = 3333;
 function myFunction() {
-    var x, text;
- x = document.getElementById("numb").value;
- if (x == user1code || x == user2code || x == user3code) {
-        text = "ΚΩΔΙΚΟΣ ΟΚ";
-         window.location.href = 'posa.html' ;
+var x, text;
+x = document.getElementById("numb").value;
+if (x == user1code || x == user2code || x == user3code) {
+text = "ΚΩΔΙΚΟΣ ΟΚ";
+window.location.href = 'posa.html' ;
 } else {
-        text = "ΛΑΘΟΣ ΚΩΔΙΚΟΣ";
+text = "ΛΑΘΟΣ ΚΩΔΙΚΟΣ";
     }
-    document.getElementById("message").innerHTML = text;
+document.getElementById("message").innerHTML = text;
 var myData = localStorage.setItem("user",x);
-
 }
- </script>
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  </body>
-  	</html>
+</script>
+</body>
+</html>
