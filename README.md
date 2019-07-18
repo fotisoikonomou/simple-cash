@@ -1,13 +1,13 @@
 # simple-cash
-Απλό script η αλλιώς pure javascript που παίζει με διάφορες απλές λειτουργίες.
-Ανοίγετε το index2.html και πληκρολογείτε τους κωδικους που εχω δωσει για τους 3 χρήστες. Εαν βάλετε διαφορετικό κωδικό θα χτυπήσει λάθος.
-Είναι πολύ απλό. Απλές λειτουργίες και Pure javascript!!!!
+Simple script or otherwise pure javascript that plays with various simple functions.
+You open index2.html and you get the codes I've given for the 3 users. If you enter a different code it will be wrong.
+It's very simple. Simple Functions and Pure javascript !!!!
 
-Σενάριο:
+Scenario:
 
-1)κατεβάστε όλα τα αρχεία σε ένα φάκελο.
-2)Μπείτε στο index2.html και βάλτε κωδικούς , 3344,3333 και 2211 για να εχετε προσβαση .
-3)Εαν δοκιμασετε να βαλετε ενα αλλο αριθμο θα πετάξει σφάλμα!
-4)Enjoy!
+1) download all files to a folder.
+2) Enter index2.html and enter passwords, 3344,3333 and 2211 to access.
+3) If you try to put another number will throw an error!
+4)Enjoy!!
 Never give up!!
 Keep walking!
